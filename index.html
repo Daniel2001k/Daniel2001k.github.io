@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+	<head>
+		<title>Snake</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	</head>
+	<body>
+		<div id="start">
+            <button onclick="f(250)" class="btn">EASY</button>
+            <button onclick="f(200)" class="btn">NORMAL</button>
+            <button onclick="f(150)" class="btn">HARD</button>
+            <button onclick="f(100)" class="btn">EXPERT</button>
+            <button onclick="f(50)" class="btn">MASTER</button>
+        </div>
+		<script src="javascript/main.js"></script>
+        <div id="game">
+
+        </div>
+        <div id="koniec">
+            <h1 id="endPoints"></h1>
+            <button onclick="closeEndBoard()" class="btn">Try again!</button>
+        </div>
+        <div id="buttons">
+            <div id="upper">
+                <button class="btn-curs" id="btn-up"><i class='fas fa-angle-double-up'></i></button>
+            </div>
+            <div id="down">
+                <button class="btn-curs" id="btn-left"><i class='fas fa-angle-double-left'></i></button>
+                <button class="btn-curs" id="btn-down"><i class='fas fa-angle-double-down'></i></button>
+                <button class="btn-curs" id="btn-right"><i class='fas fa-angle-double-right'></i></button>
+            </div>
+        </div>
+	</body>
+</html>

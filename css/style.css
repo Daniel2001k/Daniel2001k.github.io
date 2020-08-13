@@ -1,0 +1,152 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.board{
+    border-color: rgb(48, 95, 47);
+    border-width: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    width: 510px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lightTile{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(170, 215, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkTile{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(162, 209, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple{
+    width: 29px;
+}
+.snake{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(70, 116, 233);
+}
+.startSnake{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(70, 116, 233);
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+#points{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 75px;
+    color: yellow;
+    border-color: black;
+    border-width: 3px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#start{
+    background-color: rgb(0, 170, 0);
+    border-color: rgb(1, 70, 0);
+    border-width: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+}
+.btn{
+    background-color: rgb(5, 167, 54);
+    border-color: rgb(48, 95, 47);
+    border-width: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    width: 120px;
+    height: 50px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: yellow;
+    border-color: black;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#koniec{
+    background-color: rgb(0, 170, 0);
+    border-color: rgb(1, 70, 0);
+    border-width: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+}
+#endPoints{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 75px;
+    color: yellow;
+    border-color: black;
+    border-width: 3px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.btn-curs{
+    border-color: black;
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    height: 66px;
+    width: 66px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-curs:hover{
+    background-color: rgb(255, 255, 0);
+}
+i{
+    font-size: 50px;
+}
+#buttons{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+#down{
+    display: flex;
+    justify-content: center;
+}
